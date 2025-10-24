@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "groupName": {
+      "value": "KPMG_InterviewBot_RG_v2"
+    },
+    "groupLocation": {
+      "value": "westus2"
+    },
+    "azureBotId": {
+      "value": "KPMG_InterviewBot_Prod_ID"
+    },
+    "azureBotSku": {
+      "value": "S1"
+    },
+    "azureBotRegion": {
+      "value": "global"
+    },
+    "botEndpoint": {
+      "value": "https://kpmg-interviewbot-prod-2025.azurewebsites.net/api/messages"
+    },
+    "appType": {
+      "value": "SingleTenant"
+    },
+    "appId": {
+      "value": "1ebee9f3-88df-4a69-a38c-2346c9c1afad"
+    },
+    "UMSIName": {
+      "value": ""
+    },
+    "UMSIResourceGroupName": {
+      "value": ""
+    },
+    "tenantId": {
+      "value": ""
+    }
+  }
+}

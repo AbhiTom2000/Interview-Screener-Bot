@@ -1,0 +1,45 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "groupName": {
+      "value": "KPMG_InterviewBot_RG_v2"
+    },
+    "groupLocation": {
+      "value": "westus2"
+    },
+    "appServiceName": {
+      "value": "kpmg-interviewbot-prod-2025"
+    },
+    "appServicePlanName": {
+      "value": "kpmg-bot-plan"
+    },
+    "appServicePlanLocation": {
+      "value": "westus2"
+    },
+    "appServicePlanSku": {
+      "value": {
+        "name": "S1",
+        "tier": "Standard",
+        "size": "S1",
+        "family": "S",
+        "capacity": 1
+      }
+    },
+    "appType": {
+      "value": "SingleTenant"
+    },
+    "appId": {
+      "value": "1ebee9f3-88df-4a69-a38c-2346c9c1afad"
+    },
+    "UMSIName": {
+      "value": ""
+    },
+    "UMSIResourceGroupName": {
+      "value": ""
+    },
+    "tenantId": {
+      "value": ""
+    }
+  }
+}
